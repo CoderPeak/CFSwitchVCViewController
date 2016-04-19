@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A05786E1CC5C69300A65365 /* CFShowContentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A05786D1CC5C69300A65365 /* CFShowContentVC.m */; };
+		8AE108CE1CC4BB690027FEFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE108CD1CC4BB690027FEFF /* main.m */; };
+		8AE108D11CC4BB690027FEFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE108D01CC4BB690027FEFF /* AppDelegate.m */; };
+		8AE108D41CC4BB690027FEFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE108D31CC4BB690027FEFF /* ViewController.m */; };
+		8AE108D71CC4BB690027FEFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE108D51CC4BB690027FEFF /* Main.storyboard */; };
+		8AE108D91CC4BB690027FEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE108D81CC4BB690027FEFF /* Assets.xcassets */; };
+		8AE108DC1CC4BB690027FEFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE108DA1CC4BB690027FEFF /* LaunchScreen.storyboard */; };
+		8AE108EA1CC4C8BB0027FEFF /* CFSwitchUnderLineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE108E91CC4C8BB0027FEFF /* CFSwitchUnderLineVC.m */; };
+		8AE108ED1CC4CA820027FEFF /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE108EC1CC4CA820027FEFF /* UIView+Frame.m */; };
+		8AE108F11CC4D8680027FEFF /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE108F01CC4D8680027FEFF /* NSString+Additions.m */; };
+		8AE108F41CC4DA660027FEFF /* CFTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE108F31CC4DA660027FEFF /* CFTitleButton.m */; };
+		8AE108F71CC4DC3A0027FEFF /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE108F61CC4DC3A0027FEFF /* UIColor+Additions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A05786C1CC5C69300A65365 /* CFShowContentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFShowContentVC.h; sourceTree = "<group>"; };
+		8A05786D1CC5C69300A65365 /* CFShowContentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFShowContentVC.m; sourceTree = "<group>"; };
+		8AE108C91CC4BB690027FEFF /* CFSwitchVCViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFSwitchVCViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE108CD1CC4BB690027FEFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AE108CF1CC4BB690027FEFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AE108D01CC4BB690027FEFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AE108D21CC4BB690027FEFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8AE108D31CC4BB690027FEFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8AE108D61CC4BB690027FEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AE108D81CC4BB690027FEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AE108DB1CC4BB690027FEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AE108DD1CC4BB690027FEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE108E81CC4C8BB0027FEFF /* CFSwitchUnderLineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSwitchUnderLineVC.h; sourceTree = "<group>"; };
+		8AE108E91CC4C8BB0027FEFF /* CFSwitchUnderLineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSwitchUnderLineVC.m; sourceTree = "<group>"; };
+		8AE108EB1CC4CA780027FEFF /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		8AE108EC1CC4CA820027FEFF /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		8AE108EE1CC4CC960027FEFF /* CFMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFMacro.h; sourceTree = "<group>"; };
+		8AE108EF1CC4D8680027FEFF /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		8AE108F01CC4D8680027FEFF /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		8AE108F21CC4DA660027FEFF /* CFTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFTitleButton.h; sourceTree = "<group>"; };
+		8AE108F31CC4DA660027FEFF /* CFTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFTitleButton.m; sourceTree = "<group>"; };
+		8AE108F51CC4DC3A0027FEFF /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		8AE108F61CC4DC3A0027FEFF /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AE108C61CC4BB690027FEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AE108C01CC4BB690027FEFF = {
+			isa = PBXGroup;
+			children = (
+				8AE108CB1CC4BB690027FEFF /* CFSwitchVCViewController */,
+				8AE108CA1CC4BB690027FEFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AE108CA1CC4BB690027FEFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AE108C91CC4BB690027FEFF /* CFSwitchVCViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AE108CB1CC4BB690027FEFF /* CFSwitchVCViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8AE108E31CC4C6D60027FEFF /* Classes */,
+				8AE108CF1CC4BB690027FEFF /* AppDelegate.h */,
+				8AE108D01CC4BB690027FEFF /* AppDelegate.m */,
+				8AE108D21CC4BB690027FEFF /* ViewController.h */,
+				8AE108D31CC4BB690027FEFF /* ViewController.m */,
+				8AE108D51CC4BB690027FEFF /* Main.storyboard */,
+				8AE108D81CC4BB690027FEFF /* Assets.xcassets */,
+				8AE108DA1CC4BB690027FEFF /* LaunchScreen.storyboard */,
+				8AE108DD1CC4BB690027FEFF /* Info.plist */,
+				8AE108CC1CC4BB690027FEFF /* Supporting Files */,
+			);
+			path = CFSwitchVCViewController;
+			sourceTree = "<group>";
+		};
+		8AE108CC1CC4BB690027FEFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AE108CD1CC4BB690027FEFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AE108E31CC4C6D60027FEFF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8AE108E41CC4C6D60027FEFF /* Controllers */,
+				8AE108E51CC4C6D60027FEFF /* Models */,
+				8AE108E61CC4C6D60027FEFF /* Others */,
+				8AE108E71CC4C6D60027FEFF /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8AE108E41CC4C6D60027FEFF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8AE108E81CC4C8BB0027FEFF /* CFSwitchUnderLineVC.h */,
+				8AE108E91CC4C8BB0027FEFF /* CFSwitchUnderLineVC.m */,
+				8A05786C1CC5C69300A65365 /* CFShowContentVC.h */,
+				8A05786D1CC5C69300A65365 /* CFShowContentVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8AE108E51CC4C6D60027FEFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8AE108E61CC4C6D60027FEFF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				8AE108F51CC4DC3A0027FEFF /* UIColor+Additions.h */,
+				8AE108F61CC4DC3A0027FEFF /* UIColor+Additions.m */,
+				8AE108EF1CC4D8680027FEFF /* NSString+Additions.h */,
+				8AE108F01CC4D8680027FEFF /* NSString+Additions.m */,
+				8AE108EB1CC4CA780027FEFF /* UIView+Frame.h */,
+				8AE108EC1CC4CA820027FEFF /* UIView+Frame.m */,
+				8AE108EE1CC4CC960027FEFF /* CFMacro.h */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		8AE108E71CC4C6D60027FEFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8AE108F21CC4DA660027FEFF /* CFTitleButton.h */,
+				8AE108F31CC4DA660027FEFF /* CFTitleButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AE108C81CC4BB690027FEFF /* CFSwitchVCViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE108E01CC4BB690027FEFF /* Build configuration list for PBXNativeTarget "CFSwitchVCViewController" */;
+			buildPhases = (
+				8AE108C51CC4BB690027FEFF /* Sources */,
+				8AE108C61CC4BB690027FEFF /* Frameworks */,
+				8AE108C71CC4BB690027FEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CFSwitchVCViewController;
+			productName = CFSwitchVCViewController;
+			productReference = 8AE108C91CC4BB690027FEFF /* CFSwitchVCViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AE108C11CC4BB690027FEFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tyrbl;
+				TargetAttributes = {
+					8AE108C81CC4BB690027FEFF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 8AE108C41CC4BB690027FEFF /* Build configuration list for PBXProject "CFSwitchVCViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AE108C01CC4BB690027FEFF;
+			productRefGroup = 8AE108CA1CC4BB690027FEFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AE108C81CC4BB690027FEFF /* CFSwitchVCViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AE108C71CC4BB690027FEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE108DC1CC4BB690027FEFF /* LaunchScreen.storyboard in Resources */,
+				8AE108D91CC4BB690027FEFF /* Assets.xcassets in Resources */,
+				8AE108D71CC4BB690027FEFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AE108C51CC4BB690027FEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE108EA1CC4C8BB0027FEFF /* CFSwitchUnderLineVC.m in Sources */,
+				8AE108D41CC4BB690027FEFF /* ViewController.m in Sources */,
+				8A05786E1CC5C69300A65365 /* CFShowContentVC.m in Sources */,
+				8AE108D11CC4BB690027FEFF /* AppDelegate.m in Sources */,
+				8AE108F41CC4DA660027FEFF /* CFTitleButton.m in Sources */,
+				8AE108ED1CC4CA820027FEFF /* UIView+Frame.m in Sources */,
+				8AE108F71CC4DC3A0027FEFF /* UIColor+Additions.m in Sources */,
+				8AE108CE1CC4BB690027FEFF /* main.m in Sources */,
+				8AE108F11CC4D8680027FEFF /* NSString+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8AE108D51CC4BB690027FEFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AE108D61CC4BB690027FEFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AE108DA1CC4BB690027FEFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AE108DB1CC4BB690027FEFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AE108DE1CC4BB690027FEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8AE108DF1CC4BB690027FEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AE108E11CC4BB690027FEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CFSwitchVCViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyrbl.CFSwitchVCViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AE108E21CC4BB690027FEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CFSwitchVCViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyrbl.CFSwitchVCViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AE108C41CC4BB690027FEFF /* Build configuration list for PBXProject "CFSwitchVCViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE108DE1CC4BB690027FEFF /* Debug */,
+				8AE108DF1CC4BB690027FEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE108E01CC4BB690027FEFF /* Build configuration list for PBXNativeTarget "CFSwitchVCViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE108E11CC4BB690027FEFF /* Debug */,
+				8AE108E21CC4BB690027FEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AE108C11CC4BB690027FEFF /* Project object */;
+}

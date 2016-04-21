@@ -53,6 +53,7 @@
         self.titleArr = @[@"席琳·迪翁", @"刘德华", @"CF", @"孙耀威", @"张卫健", @"梁朝伟", @"范文芳", @"窦文涛", @"高圆圆"];
 //        self.titleArr = @[@"席琳·迪翁", @"刘德华", @"CF", @"孙耀威", @"张卫健", @"梁朝伟", @"范文芳"];
 //        self.titleArr = @[@"席琳·迪翁", @"刘德华", @"CF", @"孙耀威"];
+//        self.titleArr = @[@"席琳·迪翁", @"刘德华", @"CF"];
     }
     return self;
 }
@@ -136,15 +137,12 @@
             
             
             // 默认选中第0个按钮
+            
             if (i == 0) {
                 titleButton.selected = YES;
                 self.clickedTitleButton = titleButton;
-                if (self.avergTitle) {
-                    self.titleUnderlineView.cf_width = titleW;
-                } else{
-                    self.titleUnderlineView.cf_width = titleButton.cf_width;
-                }
-                
+                self.titleUnderlineView.cf_width = titleButton.cf_width;
+
                 self.titleUnderlineView.cf_centerX = titleButton.cf_centerX;
             }
             
@@ -153,7 +151,7 @@
             
         }
         
-        _titleScrollView.contentSize = CGSizeMake(titleW * self.titleArr.count, 0);
+        _titleScrollView.contentSize = CGSizeMake(totalW, 0);
         _titleScrollView.showsHorizontalScrollIndicator = NO;
     }
     
@@ -212,12 +210,9 @@
     
     // 移动 底部下划线
     [UIView animateWithDuration:0.25 animations:^{
-        
-        if (self.avergTitle) {
-            self.titleUnderlineView.cf_width = CFScreenWidth/(self.titleArr.count);
-        } else{
-            self.titleUnderlineView.cf_width = btn.cf_width;
-        }
+
+        self.titleUnderlineView.cf_width = btn.cf_width;
+
         self.titleUnderlineView.cf_centerX = btn.cf_centerX;
     }];
     

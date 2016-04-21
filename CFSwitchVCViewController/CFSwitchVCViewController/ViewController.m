@@ -39,12 +39,19 @@
     [self.view addSubview:titleL];
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btn setTitle:@"点此进入-->底部下划线样式切换" forState:UIControlStateNormal];
+    [btn setTitle:@"点此进入-->底部下划线样式切换(滚动结束切换)" forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(switchVCWithUnderLineShow) forControlEvents:UIControlEventTouchUpInside];
     btn.frame = CGRectMake(0, 200, self.view.cf_width, 50);
     [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     btn.backgroundColor = CFRandomColor;
     [self.view addSubview:btn];
+    
+    // QQ交流
+    UILabel *qqLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(btn.frame)+100, self.view.cf_width, 50)];
+    qqLabel.text = @"交流QQ 545486205";
+    qqLabel.backgroundColor = CFRandomColor;
+    qqLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:qqLabel];
 }
 
 #pragma mark - button actions

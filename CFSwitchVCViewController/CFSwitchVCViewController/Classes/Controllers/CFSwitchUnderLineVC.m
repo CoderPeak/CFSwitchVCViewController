@@ -15,7 +15,7 @@
 #import "CFShowContentVC.h"
 
 #define kViewTagConstant 1  // 所有tag都加上这个
-#define kTitleBtnWidth (self.titleTotalW/(self.titleArr.count+1))  // 视频列表 标题按钮 宽
+//#define kTitleBtnWidth (self.titleTotalW/(self.titleArr.count+1))  // 标题按钮 宽
 
 @interface CFSwitchUnderLineVC () <UIScrollViewDelegate>
 
@@ -224,17 +224,24 @@
     // 同时让 titleScrollView 滚动到相应位置
     NSInteger index = btn.tag-1;
     offset = self.titleScrollView.contentOffset;
-    CGFloat leftX = index * kTitleBtnWidth;
+//    CGFloat leftX = index * kTitleBtnWidth;
+    CGFloat leftX = 0;
+    for (NSInteger i=0; i<index; i++) {
+        CGFloat btnW = ((UIButton *)self.titleBtnArr[i]).cf_width;
+        leftX += btnW;
+    }
     CGFloat rightX = self.titleScrollView.contentSize.width - leftX;
     
     // 左边 往右滑
     if (leftX > self.view.cf_width/2 && rightX>self.view.cf_width/2) {
-        offset.x = (index-self.view.cf_width / 2 / kTitleBtnWidth) * kTitleBtnWidth;
+//        offset.x = (index-self.view.cf_width / 2 / kTitleBtnWidth) * kTitleBtnWidth;
+        offset.x = leftX - (CFScreenWidth-btn.cf_width)/2;
     } else if(leftX < self.view.cf_width / 2){ // 左边 往左滑
         offset.x = 0;
     } else if(rightX < self.view.cf_width / 2){ // 右边 往右滑
         offset.x = self.titleScrollView.contentSize.width - self.view.cf_width;
     }
+    NSLog(@"---%@", NSStringFromCGPoint(offset));
     [self.titleScrollView setContentOffset:offset animated:YES];
     
     
@@ -248,6 +255,8 @@
 {
     int index = scrollView.contentOffset.x / scrollView.frame.size.width;
     
+//    NSLog(@"self.childViewControllers--%@", self.childViewControllers); 
+//    NSLog(@"self.childViewControllers[index]--%@", [self.childViewControllers objectAtIndex:index] );
     UIViewController *willShowChildVc = self.childViewControllers[index];
     
     // 如果这个子控制器的view已经添加过了，就直接返回
@@ -275,14 +284,19 @@
     // 同时让 titleScrollView 滚动到相应位置
     CGPoint offset = self.titleScrollView.contentOffset;
     
-    CGFloat leftX = index * kTitleBtnWidth;
-    
+//    CGFloat leftX = index * kTitleBtnWidth;
+    CGFloat leftX = 0;
+    for (NSInteger i=0; i<index; i++) {
+        CGFloat btnW = ((UIButton *)self.titleBtnArr[i]).cf_width;
+        leftX += btnW;
+    }
+
     CGFloat rightX = self.titleScrollView.contentSize.width - leftX;
     
     // 左边 往右滑
     if (leftX > self.view.cf_width/2 && rightX>self.view.cf_width/2) {
-        offset.x = (index-self.view.cf_width / 2 / kTitleBtnWidth) * kTitleBtnWidth;
-        
+//        offset.x = (index-self.view.cf_width / 2 / kTitleBtnWidth) * kTitleBtnWidth;
+        offset.x = leftX - (CFScreenWidth-((UIButton *)self.titleBtnArr[index]).cf_width)/2;
     } else if(leftX < self.view.cf_width / 2){ // 左边 往左滑
         offset.x = 0;
     } else if(rightX < self.view.cf_width / 2){ // 右边 往右滑
